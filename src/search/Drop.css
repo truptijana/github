@@ -1,0 +1,51 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.drop
+{
+    
+    margin-left:337px;
+    margin-top: -1px;
+    width: 30%;
+    background-color:rgb(233, 220, 220);
+    border: 2px solid rgb(9, 9, 9);
+    position: relative;
+    font-size: 18px;
+    padding: 3px;
+}
+
+.drop li
+{
+    list-style-type: none;
+    border-bottom: 1px solid black;
+}
+.btn li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn button
+{
+    
+    background-color: crimson;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    padding: 7px;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn a
+{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}

@@ -1,0 +1,50 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: rgb(193, 184, 184);
+}
+
+.search h1
+{
+    font-weight: bold;
+    text-align: center;
+    color: crimson;
+    
+}
+
+.search form
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search input
+{
+    padding: 20px;
+    width: 30%;
+    background-color: #fff;
+    border: 1px solid black;
+    color: black;
+    font-size: 12px;
+}
+
+.search button
+{
+    background-color:crimson;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    border: none;
+    text-align: center;
+    width: 20%;
+    height: 58px;
+    padding: 15px;
+}
